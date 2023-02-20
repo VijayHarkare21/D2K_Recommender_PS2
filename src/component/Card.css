@@ -1,0 +1,66 @@
+/* .card {
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /* transition: 0.3s; */
+    /* width: fit-content; */
+    /* display: flex; */
+    /* flex-direction: column; */
+/* } */
+
+/* On mouse-over, add a deeper shadow */
+ /* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+ }  */
+
+/* Add some padding inside the card container */
+/* .container { */
+    /* padding: 10px 16px; */
+    /* height: 2em; */
+    /* color: white; */
+    /* background-color: black; */
+    /* text-align: center; */
+/* } */
+
+
+
+
+
+
+
+/* Add rounded corners to the top left and the top right corner of the image */
+/* img { */
+    /* border-radius: 5px 5px 0 0; */
+/* } */
+
+/* My Code */
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+
+.container{
+    margin-top: -0.26em;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}

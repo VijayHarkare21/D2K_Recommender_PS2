@@ -1,0 +1,50 @@
+.intro{
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient( to bottom, #93BFCF, #FFFFFF);
+    display: flex;
+}
+
+.greeting{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.text h4{
+    font-size: 25px;
+    font-weight: bold;
+    width: 22rem;
+}
+
+.illustration{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustration img{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: inherit;
+    margin-top: 1rem;
+}

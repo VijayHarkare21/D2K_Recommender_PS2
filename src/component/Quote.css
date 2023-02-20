@@ -1,0 +1,29 @@
+.quote{
+    width: 100%;
+    /* height: 300 px; */
+}
+
+.quoteText{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    /* margin: auto; */
+    height: 150px;
+    margin: 40px;
+}
+
+.quoteHeading {
+}
+
+.innerQuote{
+    width: 30em;
+    text-align: center;
+    font-size: 20px ;
+}
+
+.author{
+    color: rgba(0, 0, 0, 60%);
+    font-weight: 600;
+    font-size: 20px;
+}
