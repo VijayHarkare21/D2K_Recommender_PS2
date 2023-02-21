@@ -3,6 +3,7 @@
     width: 100%;
     background-image: linear-gradient( to bottom, #93BFCF, #FFFFFF);
     display: flex;
+    flex-direction: row-reverse;
 }
 
 .greeting{

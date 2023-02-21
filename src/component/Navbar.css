@@ -1,0 +1,39 @@
+.Navbar{
+    background: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+}
+
+.nav_buttons{
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 15em;
+    height: 2em;
+}
+
+.nav_buttons button{
+    height: 2em;
+    width: 6em;
+    font-size: 1em;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
+
+.nav_buttons button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.icon h1{
+    color: white;
+    margin: 2em;
+    font-size: 2em;
+}
+
