@@ -1,15 +1,14 @@
 import React from 'react';
-import image from '../asset/images.jpg';
 import './Card.css'
 
-const Card = () => {
+const Card = ({category, img}) => {
     return (
         <div className="card">
             <div className="image">
-                <img src={image} alt="loading"/>
+                <img src={img} alt="loading"/>
             </div>
             <div className="container">
-                <h4>Artificial Intelligence</h4>
+                <h4>{category}</h4>
             </div>
         </div>
     );
